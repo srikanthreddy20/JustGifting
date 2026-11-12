@@ -95,7 +95,7 @@ export default function PublicGiftingPage() {
                   <div className="w-full h-2 bg-surface-container-high rounded-full overflow-hidden">
                     <div className={`h-full rounded-full transition-all duration-500 ${funded ? "bg-tertiary" : "bg-primary"}`} style={{ width: `${pct}%` }} />
                   </div>
-                  <p className="text-label-sm mt-1 font-medium" style={{ color: funded ? "rgb(var(--color-tertiary))" : undefined }}>{pct}% funded{funded ? " ✓ Fully Funded!" : ""}</p>
+                  <p className={`text-label-sm mt-1 font-medium ${funded ? "text-tertiary" : "text-primary"}`}>{pct}% funded{funded ? " ✓ Fully Funded!" : ""}</p>
                 </div>
 
                 <div className="mt-auto flex items-center justify-between">

@@ -40,7 +40,7 @@ export default function AddGiftModal({ onClose, onAdd }) {
           </div>
           <div className="grid grid-cols-2 gap-space-md">
             <div>
-              <label className={label} htmlFor="ag-price">Price in ₹ *</label>
+              <label className={label} htmlFor="ag-price">Price in £ *</label>
               <input id="ag-price" inputMode="numeric" className={field} value={form.price} onChange={set("price")} placeholder="e.g. 5000" required />
             </div>
             <div>

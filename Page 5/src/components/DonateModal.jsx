@@ -82,7 +82,7 @@ export default function DonateModal({ gift, onClose, onDonate }) {
                 </div>
               </div>
               <div>
-                <label className={label} htmlFor="d-amount">Or enter amount (₹) *</label>
+                <label className={label} htmlFor="d-amount">Or enter amount (£) *</label>
                 <input id="d-amount" inputMode="numeric" className={field} value={form.amount} onChange={set("amount")} placeholder="e.g. 1500" required />
               </div>
               <div>

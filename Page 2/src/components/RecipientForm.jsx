@@ -31,7 +31,7 @@ export default function RecipientForm() {
           <input id="r-int" className={field} value={f.interests} onChange={set("interests")} placeholder="e.g. coffee, art, travel" />
         </div>
         <div>
-          <label className={label} htmlFor="r-bud">Budget in ₹ (optional)</label>
+          <label className={label} htmlFor="r-bud">Budget in £ (optional)</label>
           <input id="r-bud" inputMode="numeric" className={field} value={f.budget} onChange={set("budget")} placeholder="e.g. 15000" />
         </div>
         <div>

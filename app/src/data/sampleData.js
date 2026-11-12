@@ -2,6 +2,8 @@
 import { IMG } from "./images.js";
 
 export const samplePage = {
+  // `slug` is used to generate the public shareable URL, e.g. /p/<slug>
+  slug: "maya-30th",
   title: "Maya's 30th Birthday",
   interests: "Art & Coffee lover",
   budgetMin: 5000,
